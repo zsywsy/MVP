@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg.main">#223F51B5</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white.pressed">#55FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="grey">#995c5c5c</color>
+
+    <color name="btn.bg.action.unenabled">#443F51B5</color>
+    <color name="btn.bg.action.pressed">#20307F</color>
+    <color name="btn.bg.action.normal">#4F61C5</color>
+</resources>

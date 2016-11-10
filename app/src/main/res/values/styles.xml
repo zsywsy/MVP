@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/grey</item>
+    </style>
+
+    <style name="Topbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="leftColor">@drawable/topbar_action_color</item>
+        <item name="rightColor">@drawable/topbar_action_color</item>
+    </style>
+
+
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimary"
+    app:leftColor="@drawable/title_color"
+
+    <style name="BtnAction" parent="MW">
+        <item name="android:background">@drawable/btn_bg_action</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+    </style>
+
+    <style name="TextInputLayoutOOB">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+
+    <style name="LoginInputlayout" parent="MW">
+        <item name="android:padding">10dp</item>
+        <item name="counterEnabled">true</item>
+        <item name="counterOverflowTextAppearance">@style/TextInputLayoutOOB</item>
+    </style>
+
+    <style name="LoginEditText" parent="MW">
+        <item name="android:background">@null</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="LoginCardView" parent="MW">
+        <item name="cardCornerRadius">2dp</item>
+        <item name="cardElevation">1dp</item>
+    </style>
+
+
+</resources>
